@@ -1,0 +1,181 @@
+/* Theme picked colours */
+
+#454545
+#FF6000
+#FFA559
+#FFE6C7
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image:url(/Capstone/public/imgs/Design_images/main/lugar-trabajo-computadora-taza-cafe2.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+}
+
+.perf-position{
+    width:100%;
+    height:40rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-animate .perf-desig{
+    width:15%;
+    height:20rem;
+    border: 15px double #FFE6C7;
+    border-radius:50%;
+    padding:0;
+}
+
+.but-divition{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.but-divition p{
+    text-align:justify;
+}
+
+.summary > h1{
+    width:100%;
+    text-align:center;
+    color:#FFE6C7;
+    font-size:3rem;
+}
+
+.item-1,.item-2,.item-4,.item-5{
+    width:25%;
+    height:15vh;
+    border-radius:100%;
+    padding:0;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1,.item-2,.item-4,.item-5{
+    border: 15px double #FFA559;
+    color:#FFE6C7;
+}
+
+.item-1:hover,.item-2:hover,.item-4:hover,.item-5:hover{
+    color:#FF6000;
+    border: 15px double #FF6000;
+    background-color:#454545 ;
+}
+
+.item-2{
+    grid-area: 2;
+}
+
+.item-3{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    top:6vh;
+    padding:7%;
+    border-radius:1%;
+    border: 15px double #FFE6C7;
+    color:#FFE6C7;
+    font-size:1.3rem;
+}
+
+.item-3:hover{
+    color:#FFA559;
+    border: 15px double #FFA559;
+    background-color:#454545;
+}
+
+.item-5{
+    grid-area: 2 / 3 / 2 / 4;
+}
+
+.modal-content{
+    background-color:#454545;
+}
+
+.modal-header{
+    border-bottom: 10px double #FFA559;
+}
+
+.modal-header h1{
+    font-size:2rem !important ;
+    display:block;
+    margin:0 auto;
+    color:#FFE6C7;
+}
+
+.modal-header button{
+    width:1%;
+    margin:0 !important;
+}
+
+.modal-body{
+    color:#FFE6C7;
+    padding:5%;
+}
+
+.modal-body .exp .exp-inf p{
+    width:60%;
+    font-size:1.3rem;
+}
+
+.exp-inf, .educ-inf{
+    display:flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.exp-inf img{
+    width:20%;
+}
+
+.modal-body .educ img{
+    display:block;
+    margin:0 auto;
+}
+
+.educ img{
+    width:20%;
+}
+
+.educ .educ-inf img{
+    width:20%;
+}
+
+.educ .educ-inf p{
+    width:50%;
+    font-size:1.3rem
+}
+
+.skil-soft img{
+    width:10%;
+    float:right;
+}
+
+.skil-soft-inf{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:20%;
+}
+
+.skil-soft-inf ul{
+    font-size:1.3rem;
+}
+
+.modal-footer{
+    border-top: 10px double #FFA559;
+}
